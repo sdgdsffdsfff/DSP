@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="DSP-IUC"
+  id="myeclipse.1403659865265"
+  context-root="/DSP-IUC"
+  j2ee-spec="6.0"
+  archive="DSP-IUC.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

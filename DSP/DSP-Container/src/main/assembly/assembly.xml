@@ -1,0 +1,27 @@
+<assembly>
+    <id>2.0.1-SNAPSHOT</id>
+    <formats>
+        <format>tar.gz</format>
+    </formats>
+    <includeBaseDirectory>true</includeBaseDirectory>
+
+    <fileSets>
+        <fileSet>
+            <directory>src/main/resources/</directory>
+            <outputDirectory>/WEB-INF/classess</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>src/main/java/</directory>
+            <outputDirectory>/WEB-INF/classess</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>src/main/webapp/</directory>
+            <outputDirectory>/</outputDirectory>
+        </fileSet>
+    </fileSets>
+    <dependencySets>
+        <dependencySet>
+            <outputDirectory>/WEB-INF/lib</outputDirectory>
+        </dependencySet>
+    </dependencySets>
+</assembly>
